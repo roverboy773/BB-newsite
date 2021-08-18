@@ -1,0 +1,18 @@
+body{
+    font-family:Helvetica,Neue;
+}
+
+section.All_Services_Nav .services{
+    padding: 10px 0;
+    border:1px solid #8C7DC0;
+    border-radius: 10px;
+}
+
+section.All_Services_Nav .services .active{
+    background-color: #FCA702;
+}
+
+section.All_Services_Nav .services a{
+text-decoration: none;
+color: #1E0665;
+}
