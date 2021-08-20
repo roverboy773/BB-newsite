@@ -68,3 +68,9 @@ color: #1E0665;
     left: 0;
     background: #00E2FB;
   }
+
+  @media only screen and (max-width:600px){
+      #main_navigation{
+          margin-left:0px!important
+      }
+  }
