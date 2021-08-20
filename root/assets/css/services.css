@@ -7,22 +7,27 @@ body{
 }
 section.All_Services_Nav .services{
     border:1px solid #8C7DC0;
-    border-radius: 10px;
-    
-}
-/* section.All_Services_Nav .services .service{
-    padding:10px 0
-} */
-section.All_Services_Nav .services .active{
-    background-color: #FCA702
+    border-radius: 10px;  
+   display: flex;
 }
 
-section.All_Services_Nav .services a{
+
+section.All_Services_Nav .services button{
     display: block;
-text-decoration: none;
-color: #1E0665;
-font-size: 15px;
-padding:10px 0
+    width:20%;
+    border:none;
+    outline:none;
+    padding: 15px;
+    margin:0;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #1E0665;
+    font-size: 15px;
+    text-align: center;
+}
+section.All_Services_Nav .services button.active{
+    font-weight: bolder;
+    background-color: #FCA702
 }
 
 
@@ -164,6 +169,13 @@ color:#1E0665
 
 
 @media only screen and (max-width: 992px) {
+    section.All_Services_Nav .services{ 
+       display: block;
+    }
+    
+    section.All_Services_Nav .services button{
+        width:100%   
+    }
     .back_circle_img{
         bottom:-15%;
         right:-10%;
