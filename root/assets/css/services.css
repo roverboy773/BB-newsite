@@ -99,10 +99,13 @@ padding:10px 0
 
 
 .main_content button{
-    box-shadow:#00A3C6 0px 10px 25px ;
+    box-shadow: 0 10px 12px -6px #00e6ff;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 .lets_work_together{
     margin-top: 250px;
+    margin-bottom: 10%;
    
 }
 
