@@ -1,0 +1,406 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family:Helvetica,Neue;
+    overflow-x: hidden;
+}
+/* FIRST SECTION */
+
+.first_section{
+    margin-top: 200px;
+    position: relative;
+}
+.first_section button,.workflow_card button{
+border: none;
+outline:none;
+background:linear-gradient(120deg, #00E6FF 30%,#00A3C6);
+padding:10px 15px;
+border-radius:5px;
+}
+.first_section button,.workflow_card button{
+    box-shadow:#00A3C6 0px 10px 25px ;
+}
+.first_section button .button_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first_section .content p,h1{
+    color:#1E0665
+}
+h1,h2{
+    color:#1E0665;
+    font-size: 45px;
+}
+.first_section button a,.workflow_card button a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.button_content img{
+ width:10px
+}
+.button_content img:nth-child(2){
+    opacity: 0;
+    animation: first 3s linear infinite;
+ }
+  .button_content img:nth-child(3){
+     opacity: 0;
+     animation: sec 3s linear infinite;
+     animation-delay: 0.5s;
+  }
+  .button_content img:nth-child(4){
+     opacity: 0;
+     animation: third 3s linear infinite;
+     animation-delay: 1s;
+  }
+.green_right_part{
+    position:absolute;
+    width:70%;
+    top:-400px;
+    right:-25%;
+    z-index: -3;
+}
+.orange_ball_left{
+    position:absolute;
+    width:20%;
+    top:0%;
+    left:-15%
+}
+
+
+/* OUR SOLUTION SECTION */
+
+section.our_solution{
+    margin-top: 100px;
+}
+h5{
+    margin-bottom: 0;
+    color: #FCA702;
+}
+.our_solution_content p{
+    width:56%;
+    line-height: 20px;
+    color:#1E0665
+}
+
+/* BREAKDOWN SECTION */
+section.breakdown{
+margin-top: 100px;
+}
+section.breakdown .breakdown_content{
+    margin-bottom: 100px;
+}
+.breakdown .workflow_card{
+    position: relative;
+    height:775px;
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid #8C7DC0;
+    background-color: rgba(255,255,255,0.7);
+}
+.breakdown .workflow_card .circle{
+    width:80px;
+    height:80px;
+    margin:20px auto;
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+}
+.breakdown .workflow_card p{
+    font-size: 20px;
+    color:#1E0665
+}
+.workflow_card button{
+    position: absolute;
+  top:-1%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+section.breakdown .workflow_card .phone{
+    position: absolute;
+    bottom:-5%;
+    left:50%;
+    transform: translateX(-50%);
+    width:90%;
+    display: block;
+  
+}
+.breakdown .workflow_card .disc{
+    position: absolute;
+    width:70%;
+    z-index: -3;
+}
+.breakdown .workflow_card .first_red_disc{
+    bottom:-15%;
+    left:-40%
+}
+.breakdown .workflow_card .third_white_disc{
+    bottom:-18%;
+    left:-12%
+}
+.breakdown .workflow_card .fourth_white_disc{
+    top:-15%;
+    right:-50%;
+    z-index: 3;
+}
+.breakdown .workflow_card .last_red_disc{
+    bottom:-15%;
+    right:-100%;
+}
+section.breakdown .margin{
+    margin: 90px auto;
+}
+
+
+
+
+
+
+
+
+/* BEST SOLUTION SECTION */
+section.the_best_solution{
+    margin-top: 100px;
+}
+.the_best_solution_content{
+    margin-bottom: 100px;
+}
+section.the_best_solution .cards{
+    position:relative;
+    border-radius: 10px;
+    width:100%;
+    height: 350px;
+    transition: all .3s ease-in-out;
+}
+section.the_best_solution .cards:hover{
+    transform: scaleY(1.2);
+}
+section.the_best_solution .cards h3{
+    position: absolute;
+    bottom:2%;
+    left:5%;
+    color:#FFFFFF;
+    width: 30%;
+    font-size: 30px;
+}
+
+section.the_best_solution .server{
+    background:linear-gradient(#DDA5FB,#9F4CD9);
+}
+section.the_best_solution .app{
+    background:linear-gradient(#FCB85C,#E04F19);
+}
+section.the_best_solution .bug{
+    background:linear-gradient(#61EEEB,#7078FA);
+}
+section.the_best_solution .server2{
+    background:linear-gradient(#DF6289,#F5B696);
+}
+section.the_best_solution .app2{
+    background:linear-gradient(#D3FD79,#A2EA99);
+}
+section.the_best_solution .bug2{
+    background:linear-gradient(#A3FFF0,#05B6C6);
+}
+.server_img{
+    position:absolute;
+  top:10%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 70%;
+}
+.app_img{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+width:50%
+}
+.hand_img{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+width:90%
+}
+section.the_best_solution .margin{
+    margin:100px 0
+}
+
+
+/* DELIVERABLES SECTION */
+section.deliverables{
+    margin-top: 100px;
+}
+section.deliverables .product{
+    position: relative;
+    width:100%;
+    height:250px;
+    background: url('../images/purple_laptop_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+section.deliverables .product h3{
+    position:absolute;
+    bottom: 5%;
+    left:5%;
+    color:#FFFFFF;
+    width:30%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+section.deliverables .margin{
+    margin-top: 25px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .breakdown .workflow_card{
+        height:720px
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .breakdown .workflow_card{
+        height:680px
+    }
+    .green_right_part{
+        width:100%;
+       top:-300px;
+        right:-35%
+    }
+}
+@media only screen and (max-width: 992px) {
+    .green_right_part{
+        width:100%;
+       top:-300px;
+        right:-45%
+    }
+    .breakdown .workflow_card{
+        height:650px;  
+    }
+    .breakdown .workflow_card .first_red_disc{
+        bottom:-10%;
+        left:-35%
+    }
+    .breakdown .workflow_card .third_white_disc{
+        bottom:-8%;
+        left:-20%
+    }
+    .breakdown .workflow_card .fourth_white_disc{
+        top:-0%;
+        right:-45%;
+        z-index: 3;
+    }
+    .breakdown .workflow_card .last_red_disc{
+        bottom:-5%;
+        right:-50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .green_right_part{
+        width:100%;
+       top:-200px;
+        right:-55%;
+    }
+    .our_solution_content p{
+        width:100%;
+    }
+    .breakdown .workflow_card{
+        height:750px;
+        margin: 50px 0;
+    }
+    section.breakdown .workflow_card .phone{
+        width:55%
+    }
+    .breakdown .workflow_card .disc{
+        width:30%
+    }
+    .breakdown .workflow_card .first_red_disc{
+        bottom:-15%;
+        left:-15%
+    }
+    .breakdown .workflow_card .third_white_disc{
+        bottom:-5%;
+        left:-12%
+    }
+    .breakdown .workflow_card .fourth_white_disc{
+        top:-10%;
+        right:-15%;
+        z-index: 3;
+    }
+    .breakdown .workflow_card .last_red_disc{
+        bottom:-10%;
+        right:-40%;
+    }
+    section.the_best_solution .cards{
+        margin:50px auto;
+    }
+    section.deliverables .product{
+        margin:10px 0
+    }
+    section.breakdown .margin, section.the_best_solution .margin, section.deliverables .margin{
+        margin:0
+    }
+    section.breakdown .breakdown_content, .the_best_solution_content{
+        margin-bottom:30px
+    }
+    section.deliverables{
+        margin-top: 20px;
+    }
+  
+}
+
+@media only screen and (max-width: 450px) {
+    .green_right_part{
+        width:100%;
+       top:60px;
+        right:-55%;
+    }
+    .breakdown .workflow_card{
+        height:625px;
+        margin: 50px 0;
+    }
+}
+
+
+  @keyframes first{
+    0%{
+       opacity: 0;
+    }
+   50%{
+       opacity: 1;
+   }
+   100%{
+       opacity:0
+   }
+}
+@keyframes sec{
+    0%{
+       opacity: 0;
+    }
+   50%{
+       opacity: 1;
+   }
+   100%{
+       opacity:0
+   }
+}
+@keyframes third{
+    0%{
+       opacity: 0;
+    }
+   50%{
+       opacity: 1;
+   }
+   100%{
+       opacity:0
+   }
+}
