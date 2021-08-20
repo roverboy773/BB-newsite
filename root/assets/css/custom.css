@@ -1,0 +1,70 @@
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.bb_logo{
+    width: 200px;
+    margin-right: 30px;
+}
+
+.bbheader {
+    padding: 20px;
+    z-index: 100;
+}
+.phone_image img {
+    width: 40px;
+}
+.how_to_contact_bb {
+   display: flex;
+   align-items: center;
+   margin-right: 50px;
+}
+.contact_bb p{
+   margin-bottom: 0px!important;
+   color: #1E0665;
+   font-weight: 500;
+}
+#main-navigation {
+    margin-left: 60px;
+}
+#main-navigation ul li a {
+    color: #1E0665;
+    font-weight: 500;
+    margin-right: 20px;
+}
+/* --------FOOTER CSS------ */
+#bbfooter {
+    padding: 50px;
+    
+}
+.footer_copyright {
+    text-align: end;
+}
+.footer_copyright p{
+margin-bottom: 0px!important;
+color: #1E0665;
+}
+.underline{
+    position: relative;
+  }
+  
+  .underline:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #00E2FB;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+  }
+   
+  .underline:hover:after{
+    width: 100%;
+    left: 0;
+    background: #00E2FB;
+  }
