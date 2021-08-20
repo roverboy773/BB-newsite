@@ -6,7 +6,12 @@ body{
     overflow-x: hidden;
 }
 /* FIRST SECTION */
-
+.bg_less::after {
+     filter: blur(40px) brightness(70%); 
+}
+.bg_less {
+    background-color: transparent!important;
+}
 .first_section{
     margin-top: 200px;
     position: relative;
@@ -19,7 +24,7 @@ padding:10px 15px;
 border-radius:5px;
 }
 .first_section button,.workflow_card button{
-    box-shadow:#00A3C6 0px 10px 25px ;
+    box-shadow: 0 16px 16px -8px #00e6ff;
 }
 .first_section button .button_content{
     display: flex;
