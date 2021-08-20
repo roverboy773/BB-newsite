@@ -178,7 +178,7 @@ color: #1E0665;
   align-items: center;
   font-size: 20px;
   border-radius: 6px;
-  box-shadow: 0 16px 16px -8px #00e6ff;
+  box-shadow: 0 10px 12px -6px #00e6ff;
   background: linear-gradient(45deg, #00e6ff, #00a3c6);
 }
 
