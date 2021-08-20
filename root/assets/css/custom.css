@@ -714,6 +714,9 @@ color: #1E0665;
   body {
     overflow-x: hidden;
   }
+  .line:focus {
+    outline: none;
+  }
   #main-navigation {
     margin-left: 0px!important;
   }
@@ -733,6 +736,8 @@ color: #1E0665;
   .name_of_technology {
     margin-bottom: 14%;
     width: 50%;
+    margin: auto;
+    margin-bottom: 12%!important;
   }
   .portfolio-image img {
     width: 300px;
@@ -755,7 +760,7 @@ color: #1E0665;
     width: 54%;
   }
   .project-heading button {
-    width: 60%;
+    width: 61%;
     height: 100%;
   }
   #time_duration {
@@ -846,13 +851,19 @@ color: #1E0665;
   .bg_project {
     display: none;
   }
-  /* .bg_service {
+  .how_to_contact_bb {
+    margin-top: 14px;
+  }
+  .underline:hover:after{
+    width: 50%;
+  }
+   .bg_service {
     display: none;
   }
-  .bg_differentiator {
+  /* .bg_differentiator {
     display: none;
   }
   .bg_project2 {
     display: none;
-  } */
+  }  */
 }
