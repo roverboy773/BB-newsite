@@ -201,6 +201,13 @@ color: #1E0665;
 #targetAudienceSection {
     position: relative;
 }
+.bg_filtered {
+    position: absolute;
+    bottom: 25px;
+    z-index: -1;
+    width: 17%;
+}
+
 #applicationSection {
     margin-bottom: 5%;
 }
