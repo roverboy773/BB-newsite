@@ -19,3 +19,4 @@ services.forEach((ele,i)=>{
         target.innerHTML=e.target.className.split(' ')[0].split('_').join(' ')
     })
 })
+

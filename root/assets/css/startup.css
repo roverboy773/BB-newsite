@@ -1,0 +1,269 @@
+.idea_heading {
+    margin-top: 18%;
+}
+.idea_heading h1 {
+    color: #30127D;
+}
+.highlighted {
+    color: white;
+    border-radius: 6px;
+    border: none;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+   
+    box-shadow: 0 10px 12px -6px #00e6ff;
+    background: linear-gradient(45deg, #00e6ff, #00a3c6);
+}
+.two_men_iamge img {
+    width: 100%;
+}
+#ideaSection {
+    position: relative;
+}
+.pink_white_disk {
+    width: 15%;
+    position: absolute;
+    right: 0;
+    bottom: -37px;
+    z-index: -1;
+}
+
+.sub-heading1 {
+    font-size:3rem;
+    color: #1E0665;
+    font-weight: 700;
+}
+.sub-heading2 {
+    color: #00E6FF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.innovation_heading {
+    margin-top: 20%;
+}
+.innovative_text p {
+    color: #1E0665;
+    margin-left: 10px;
+    width: 68%;
+}
+#startupModelSection {
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+.model1 {
+    border: 1px solid #8C7DC0;
+    border-radius: 18px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    position: relative;
+}
+.model1 p {
+    font-size: 12px;
+    color: #8C7DC0;
+}
+.model1 img {
+    width: 82%;
+}
+.model2 img {
+    width: 35%!important;
+    margin-top: 5px!important;
+}
+.model3 img {
+    margin-top: 11px!important;
+}
+.model4 img {
+    margin-top: 8px!important;
+}
+.arrow_forward {
+    position: absolute;
+    width: 40px;
+    right: 22px;
+    top: 21px;
+    z-index: 1;
+}
+.bb_border_image {
+    width: 70%;
+}
+.bb_border_image img {
+    width: 100%;
+}
+.rocket_image {
+    width: 75%;
+}
+.rocket_image img {
+    width: 100%;
+}
+.lean_heading img {
+    position: absolute;
+    width: 21%;
+    top: 105px;
+    right: 17px;
+    z-index: -1;
+}
+.lean_heading {
+    margin-top: 18%;
+}
+.lean_heading h2 {
+color: #1E0665;
+font-size: 2.4rem;
+text-align: end;
+}
+#bookSection {
+    background-color: #F8F8FF;
+    margin-top: 18%;
+}
+.book_heading h3{
+color: #1E0665;
+text-align: end;
+}
+.book_heading {
+    margin-top: 20px;
+}
+.books_image {
+    width: 50%;
+}
+.books_image img {
+    width: 100%;
+}
+.application_heading {
+    margin-top: 12%;
+}
+.application_heading h3 {
+    color: #1E0665;
+
+}
+.manwithprice_image {
+    width: 75%;
+}
+.manwithprice_image img {
+    width: 100%;
+}
+.methodology_chart img {
+    width: 100%;
+}
+.methodology_chart p {
+    text-align: center;
+    color: #1E0665;
+    font-weight: 700;
+    font-size: 24px;
+}
+.accept_image {
+    width: 100%;
+}
+.accept_image img {
+    width: 100%;
+}
+.target_heading h3{
+color: #1E0665;
+
+}
+.target_heading {
+    margin-top: 16%;
+}
+.money_image {
+    width: 90%;
+}
+.money_image img {
+    width: 100%;
+}
+.time_heading {
+    margin-top: 15%;
+    text-align: end;
+    
+    
+}
+.time_heading img {
+
+    position: absolute;
+    width: 19%;
+    top: 34px;
+    right: 17px;
+    z-index: -1;
+
+}
+.time_heading h3{
+color: #1E0665;
+}
+.bulb_image {
+    width: 20%;
+    position: absolute;
+    right: -34px;
+    bottom: -30px;
+}
+#timeMoneySection {
+    position: relative;
+    margin-bottom: 5%;
+}
+#targetAudienceSection {
+    position: relative;
+}
+#applicationSection {
+    margin-bottom: 5%;
+}
+.target_heading img {
+    position: absolute;
+    width: 19%;
+    top: 52px;
+    left: -3px;
+    z-index: -1;
+}
+.bulb_image img {
+    width: 100%;
+   
+}
+.people_stars_image {
+    width: 80%;
+}
+.people_stars_image img {
+    width: 100%;
+}
+.stop_heading h3{
+color: #1E0665;
+
+}
+.stop_heading {
+    text-align: end;
+    margin-top: 19%;
+}
+.stop_heading h2 {
+    color: #00E6FF;
+    font-weight: 600;
+}
+#startup_form {
+    background-color: #FBF8FF;
+    margin-bottom: 12%;
+}
+.hand_image img {
+
+width: 100%;
+   
+}
+.submit_button2 {
+    margin-top: 15px!important;
+    width: 95%!important;
+    /* margin-bottom: 20px; */
+}
+#leanStartupSection {
+    margin-top: 10%;
+    position: relative;
+}
+.arrow_taken1 {
+    width: 56%;
+    position: absolute;
+    left: 229px;
+    bottom: -243px;
+
+}
+.arrow_taken2 {
+    position: absolute;
+    width: 52%;
+    right: 283px;
+    top: 264px;
+}
+#continuousInnovationSection {
+    position: relative;
+}

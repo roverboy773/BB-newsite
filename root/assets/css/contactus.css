@@ -1,0 +1,146 @@
+.form-heading h1 {
+  color: #1e0665;
+}
+.form-heading {
+  text-align: center;
+  margin-top: 5%;
+}
+#contactUsForm {
+  margin-bottom: 14%;
+}
+.message_image img {
+  width: 100%;
+}
+.contact_us_form {
+  margin-top: 8%;
+}
+.phone_number {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.name_box {
+  margin-top: 30px;
+}
+
+.email_box {
+  margin-top: 30px;
+}
+.email_id {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.message_box {
+  margin-bottom: 30px;
+}
+.name_box input {
+  border: 1px solid #8c7dc0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  height: 46px;
+}
+.name_box input::placeholder {
+  color: #d1cbe6;
+  font-size: 16px;
+}
+.name_box input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.email_box input {
+  border: 1px solid #8c7dc0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  height: 46px;
+}
+.email_box input::placeholder {
+  color: #d1cbe6;
+  font-size: 16px;
+}
+.email_box input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.phone_number input {
+  border: 1px solid #8c7dc0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  height: 46px;
+}
+.phone_number input::placeholder {
+  color: #d1cbe6;
+  font-size: 16px;
+}
+.phone_number input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.email_id input {
+  border: 1px solid #8c7dc0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  height: 46px;
+}
+.email_id input::placeholder {
+  color: #d1cbe6;
+  font-size: 16px;
+}
+.email_id input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.message_box textarea {
+  border: 1px solid #8c7dc0;
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  height: 175px;
+}
+.message_box textarea::placeholder {
+  color: #d1cbe6;
+  font-size: 16px;
+}
+.message_box textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+.submit_button button {
+  border: none;
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px;
+  background: linear-gradient(45deg, #00e6ff, #00a3c6);
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+.submit_button button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .email_id {
+        margin-top: 0px!important;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}

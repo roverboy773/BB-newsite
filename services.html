@@ -10,6 +10,7 @@
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="icon" href="/root/assets/images/favicon.png" type="image" />
     <link rel="stylesheet" href="../root/assets/css/services.css">
+    <link rel="stylesheet" href="/root/assets/css/contactus.css" />
     <link rel="stylesheet" href="../root/assets/css/custom.css">
     <title>ByteBrackets | Services</title>
 </head>
@@ -42,17 +43,23 @@
                                 <a class="nav-link underline" href="/">Home</a>
                             </li>
                             <li class="nav-item active">
+                                <a class="nav-link underline" href="/startup.html">Start Up</a>
+                            </li>
+                            <li class="nav-item active">
                                 <a class="nav-link underline" href="/services.html">Services</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link underline" href="/why_choose_us.html">Products</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link underline" href="#">Portfolio</a>
+                                <a class="nav-link underline" href="/portfolio.html">Portfolio</a>
                             </li>
 
                             <li class="nav-item active">
                                 <a class="nav-link underline" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link underline" href="/contactus.html">Contact Us</a>
                             </li>
 
                             <div class="d-md-none">
@@ -107,8 +114,8 @@
 
                 <button class="Web_Development active">Web Development</button>
                 <button class="Software_Development ">Software Development</button>
-                <button  class="Mobile_App_Development ">Mobile App Development</button>
-                <button  class="Designing_and_Branding Services ">Designing and Branding Services</button>
+                <button class="Mobile_App_Development ">Mobile App Development</button>
+                <button class="Designing_and_Branding Services ">Designing and Branding Services</button>
                 <button class="Modern_Solution_Services ">Modern Solution Services</button>
                 <!-- <button class=""> <a href="/"></a></button>
                 <button class=""><a href="/"></a></button>
@@ -307,42 +314,66 @@
         </div>
     </section>
 
-    <section class="lets_work_together">
+    <section id="letsWorkTogetherSection">
         <div class="container">
-            <div class="lets_work_content">
-
-                <h2 class="fw-bolder">LET'S WORK TOGETHER</h2>
-                <P>Contact us and we will help you!!</P>
-
-                <div class="input_wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-md-4 col-10">
-                            <div class="input">
-                                <img src="./root/assets/images/envelop.png" alt="Envelope image" class="">
-                                <input type="email" placeholder="Email address" required>
-                            </div>
-                        </div>
-                        <div class="col-1">
-                            <button><a href="/">Send</button></a>
-                        </div>
+          <img src="/root/assets/images/white_circle.jpg" alt="white pink crystal image" class="bg_together" />
+    
+          <div class="lets_work_wrapper">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="lets_work_heading">
+                  <h2>LET'S WORK TOGETHER</h2>
+                  <p>Contact us and we will help you !!</p>
+                  <form action="https://formspree.io/myynayjd" method="POST">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="name_box contact1">
+                        <input type="text" id="name" name="name" placeholder="First Name" />
+                      </div>
                     </div>
+                    <div class="col-md-6">
+                      <div class="email_box contact1">
+                        <input type="text" id="name" name="name" placeholder="Last Name" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="phone_number contact1">
+                        <input type="number" id="number" name="number" placeholder="Phone No." />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="email_id contact1">
+                        <input type="email" id="email" name="_replyto" placeholder="Email Id" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="message_box contact2">
+                    <textarea name="message" id="" placeholder="Message"></textarea>
+                    </textarea>
+                  </div>
+                   <div class="lets_work_email_part"> 
+                  <button type="submit">Send</button>
+                  </div>
+                  </form>
+                  
                 </div>
-                <div class="">
-                    <img src="./root/assets/images/hands.png" alt="handshake" class="handshake">
+              </div>
+              <div class="col-md-6">
+                <div class="keyboard_image">
+                  <img src="/root/assets/images/keyboard.png" alt="keyboard image" />
                 </div>
-
-
-                <img src="./root/assets/images/white_disk.png" alt="white disk with pink circles"
-                    class="back_circle_img back4">
-
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <section class="footer">
-        <footer class="bbfooter">
+        <footer id="bbfooter">
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg navbar-light  ">
+            <footer class="navbar navbar-expand-lg navbar-light  ">
 
                 <!-- Navbar brand -->
                 <a href="/"><img src="/root/assets/images/logoBB.png" alt="logo" class="bb_logo "></a>
@@ -377,6 +408,9 @@
                             <li class="nav-item active">
                                 <a class="nav-link underline" href="#">Blog</a>
                             </li>
+                            <li class="nav-item active">
+                                <a class="nav-link underline" href="/contactus.html">Contact Us</a>
+                            </li>
 
                             <div class="d-md-none">
                                 <div class="how_to_contact_bb">
@@ -404,7 +438,7 @@
                     </div>
                 </div>
 
-            </nav>
+            </footer>
             <!--/.Navbar-->
 
         </footer>

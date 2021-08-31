@@ -132,7 +132,7 @@ color:#1E0665
     color:#8C7DC0
     }
 
-.input_wrapper{
+/* .input_wrapper{
     margin-top:70px;
     margin-bottom: 10px;  
 }
@@ -143,9 +143,9 @@ color:#1E0665
     border:1px solid #8C7DC0;
     border-radius: 7px;
    
-}
+} */
 
-.input img{
+/* .input img{
     width:30px;
     margin: 10px;
 }
@@ -165,7 +165,7 @@ color:#1E0665
     top:0%;
     right: 10%;
     width:25%
-}
+} */
 
 
 @media only screen and (max-width: 992px) {
