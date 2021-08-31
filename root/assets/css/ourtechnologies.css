@@ -1,0 +1,57 @@
+.individual_technology_wrapper .on_hover{
+    position:absolute;
+    top:-10%;
+    left:0;
+    display:none;
+  }
+  .individual_technology_wrapper .on_hover .content_wrapper{
+    border: 1px solid #707070;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+  }
+  .name_of_technology_on_hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height: 130px;
+    
+  }
+  .name_of_technology_on_hover img{
+    width:90%;
+  }
+  .individual_technology_on_hover_button{
+    display: block;
+    border:none;
+    outline:none;
+    background:linear-gradient(40deg,#19BFFF,#0086FA);
+    width:100%;
+    padding:7px 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size:20px;
+    text-align: center;
+  }
+  
+  .individual_technology_on_hover_button:hover{
+    text-decoration: none;
+    color:#FFFFFF;
+  }
+  .individual_technology_on_hover_button img{
+    width:7%
+  }
+  
+  .individual_technology_wrapper{
+    transition: all .3s ease-in-out;
+  }
+  
+  .individual_technology_wrapper:hover .on_hover{
+  display: block;
+  }
+  .individual_technology_wrapper:hover .default{
+    display: none;
+  }

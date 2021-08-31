@@ -1,7 +1,7 @@
 /* ----------HEADER CSS--------- */
 body {
   margin: 0px;
-  font-family: Helvetica,Neue;
+  font-family: Helvetica, Neue;
   overflow-x: hidden;
 }
 
@@ -16,7 +16,7 @@ ul {
   list-style: none;
 }
 
-.bb_logo{
+.bb_logo {
   width: 200px;
   margin-right: 30px;
 }
@@ -29,25 +29,25 @@ ul {
   width: 40px;
 }
 .how_to_contact_bb {
- display: flex;
- align-items: center;
- margin-right: 50px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
 }
-.contact_bb p{
- margin-bottom: 0px!important;
- color: #1E0665;
- font-weight: 500;
+.contact_bb p {
+  margin-bottom: 0px !important;
+  color: #1e0665;
+  font-weight: 500;
 }
 #main-navigation {
   margin-left: 60px;
 }
 #main-navigation ul li a {
-  color: #1E0665;
+  color: #1e0665;
   font-weight: 500;
   margin-right: 20px;
 }
-.navbar-toggler:focus{
-  outline:none
+.navbar-toggler:focus {
+  outline: none;
 }
 /* --------FOOTER CSS------ */
 
@@ -58,33 +58,32 @@ ul {
 .footer_copyright {
   text-align: end;
 }
-.footer_copyright p{
-margin-bottom: 0px!important;
-color: #1E0665;
+.footer_copyright p {
+  margin-bottom: 0px !important;
+  color: #1e0665;
 }
-.underline{
+.underline {
   position: relative;
 }
 
-.underline:after{
-  content: '';
+.underline:after {
+  content: "";
   position: absolute;
-  width: 0; height: 3px;
+  width: 0;
+  height: 3px;
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #00E2FB;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+  background: #00e2fb;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
- 
-.underline:hover:after{
+
+.underline:hover:after {
   width: 100%;
   left: 0;
-  background: #00E2FB;
+  background: #00e2fb;
 }
-
-
 
 /* ------social media links css------- */
 .social_media_links {
@@ -103,7 +102,6 @@ color: #1E0665;
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .social_media_links {
-   
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -115,7 +113,7 @@ color: #1E0665;
   left: 0;
   width: 100%;
   height: 100%;
-  
+
   /* background-color: rgba(255, 255, 255, 0.7); */
   z-index: -1;
 }
@@ -218,10 +216,9 @@ color: #1E0665;
   /* background-color: var(--cust-mustard-color); */
   transform: scale(1, 0);
   transform-origin: center;
-  
+
   transition: 0.3s;
   z-index: -1;
-
 }
 .development_image:hover {
   transform: scaleY(1.2);
@@ -234,7 +231,6 @@ color: #1E0665;
   border: none;
   border-radius: 6px;
   position: relative;
-  
 }
 .service-heading h6 {
   color: #fca702;
@@ -298,7 +294,7 @@ color: #1E0665;
 .technology-heading button {
   align-items: center;
   background-color: #1e0665;
-  
+
   border: none;
   border-radius: 7px;
   width: 12%;
@@ -338,18 +334,18 @@ color: #1E0665;
 }
 .core_heading {
   text-align: center;
-  
+
   margin-bottom: 5%;
 }
 .core_heading h1 {
-  color: #1E0665;
+  color: #1e0665;
 }
 .technology_n {
   text-align: center;
   margin-top: 10px;
 }
-.technology_n p{
-color: #1E0665;
+.technology_n p {
+  color: #1e0665;
 }
 /* --------PROJECTS CSS---------- */
 #projectSection {
@@ -393,7 +389,7 @@ color: #1E0665;
 }
 .project_wrapper {
   margin-top: 5%;
- 
+
   border: 1px solid #371f90;
   border-radius: 8px;
   padding-left: 50px;
@@ -404,7 +400,6 @@ color: #1E0665;
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .project_wrapper {
-   
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -422,13 +417,17 @@ color: #1E0665;
 .project_content button {
   background: linear-gradient(45deg, #00e6ff, #00a3c6);
   box-shadow: 0 16px 16px -8px #00e6ff;
-  color: white;
-  font-size: 17px;
+ 
   border: none;
   border-radius: 7px;
   width: 30%;
   height: 46px;
   padding: 8px;
+}
+.project_content button a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
 }
 .project_content button:focus {
   outline: none;
@@ -452,6 +451,21 @@ color: #1E0665;
 .related_cases {
   padding-left: 30px;
   padding-right: 30px;
+}
+.left_swipe {
+  left: 25px !important;
+  bottom: 66px !important;
+
+  width: 4% !important;
+}
+.right_swipe {
+  right: 16px !important;
+  bottom: 64px !important;
+
+  width: 4% !important;
+}
+.bg_hidden {
+  overflow: hidden;
 }
 .bg_project img {
   width: 126px;
@@ -540,7 +554,7 @@ color: #1E0665;
   margin-bottom: 0px !important;
 }
 #name_of_testimonial {
-  color: #1E0665;
+  color: #1e0665;
   font-size: 24px;
   font-weight: 600;
 }
@@ -562,17 +576,16 @@ color: #1E0665;
   position: relative;
 }
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  #testimonial_content_wrapper  {
-   
+  #testimonial_content_wrapper {
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
 .carousel-item {
-  position: unset!important;
+  position: unset !important;
 }
 .carousel-inner {
-  position: unset!important;
+  position: unset !important;
   overflow: unset !important;
 }
 
@@ -589,7 +602,7 @@ color: #1E0665;
 .testimonial_button1:focus {
   outline: none;
 }
-.testimonial_button1 img{
+.testimonial_button1 img {
   width: 10px;
 }
 .testimonial_button2 {
@@ -608,7 +621,7 @@ color: #1E0665;
 .testimonial_button2:focus {
   outline: none;
 }
-.testimonial_button2 img{
+.testimonial_button2 img {
   width: 10px;
 }
 #purple_square1 {
@@ -616,7 +629,7 @@ color: #1E0665;
   right: 23.5px;
   width: 8px;
   height: 8px;
-  background-color: #634ABB;
+  background-color: #634abb;
   border: none;
   border-radius: 2px;
   bottom: 232px;
@@ -628,7 +641,7 @@ color: #1E0665;
   right: 23px;
   width: 8px;
   height: 8px;
-  background-color: #634ABB;
+  background-color: #634abb;
   border: none;
   border-radius: 2px;
   bottom: 210px;
@@ -639,7 +652,7 @@ color: #1E0665;
   right: 23px;
   width: 8px;
   height: 8px;
-  background-color: #634ABB;
+  background-color: #634abb;
   border: none;
   border-radius: 2px;
   bottom: 189px;
@@ -650,7 +663,7 @@ color: #1E0665;
   right: 22.5px;
   width: 8px;
   height: 8px;
-  background-color: #634ABB;
+  background-color: #634abb;
   border: none;
   border-radius: 2px;
   bottom: 167px;
@@ -693,7 +706,7 @@ color: #1E0665;
   border-bottom-right-radius: 10px;
 }
 .all_button {
-  background-color: #1E0665;
+  background-color: #1e0665;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -737,12 +750,11 @@ color: #1E0665;
 .blog_content3 {
   top: 333px;
 }
-.active1{
+.active1 {
   background-color: #fca702;
 }
 .active2 {
   background: #fca702;
-  
 }
 /* -----------LETS WORK TOGETHER CSS-------- */
 .bg_together {
@@ -766,28 +778,28 @@ color: #1E0665;
 }
 .lets_work_heading p {
   color: #1e0665;
-  margin-bottom: 0px!important;
+  margin-bottom: 0px !important;
 }
 .contact1 {
-  margin-top: 15px!important;
-  margin-bottom: 0px!important;
+  margin-top: 15px !important;
+  margin-bottom: 0px !important;
 }
 .contact2 textarea {
-  width: 95%!important;
-  height: 60px!important;
+  width: 95% !important;
+  height: 60px !important;
 }
 .contact2 {
-  margin-top: 15px!important;
-  margin-bottom: 0px!important;
+  margin-top: 15px !important;
+  margin-bottom: 0px !important;
 }
-.contact1 input{
- width: 90%!important;
- height: 32px!important;
+.contact1 input {
+  width: 90% !important;
+  height: 32px !important;
 }
 .lets_work_email_part button {
   width: 95%;
   padding: 8px;
- margin-top: 15px;
+  margin-top: 15px;
   border-radius: 6px;
   background: linear-gradient(45deg, #00e6ff, #00a3c6);
   border: none;
@@ -846,22 +858,19 @@ color: #1E0665;
   }
 }
 
- 
-
-
 /* -----------RESPONSIVE CSS------ */
-@media only screen and (max-width: 600px) { */
-  body {
+@media only screen and (max-width: 600px) {
+  */ body {
     overflow-x: hidden;
   }
   #bbfooter {
-    padding: 20px!important;
+    padding: 20px !important;
   }
   .line:focus {
     outline: none;
   }
   #main-navigation {
-    margin-left: 0px!important;
+    margin-left: 0px !important;
   }
   .octopus_image img {
     width: 313px;
@@ -883,7 +892,7 @@ color: #1E0665;
     margin-bottom: 14%;
     width: 50%;
     margin: auto;
-    margin-bottom: 12%!important;
+    margin-bottom: 12% !important;
   }
   .portfolio-image img {
     width: 300px;
@@ -942,28 +951,27 @@ color: #1E0665;
   }
   .testimonial_button2 {
     width: 10%;
-    right: 131px!important;
-    bottom: -62px!important;
+    right: 131px !important;
+    bottom: -62px !important;
   }
   .testimonial_button1 {
     width: 10%;
-    right: 197px!important;
-    bottom: -62px!important;
+    right: 197px !important;
+    bottom: -62px !important;
   }
   #testimonial_content_wrapper {
     padding: 30px !important;
-
   }
   #testimonial_content_wrapper2 {
     padding: 30px !important;
   }
-.web_button {
-  display: none;
-}
-.responsive_button {
-  display: block;
-  margin-top: 4%;
-}
+  .web_button {
+    display: none;
+  }
+  .responsive_button {
+    display: block;
+    margin-top: 4%;
+  }
   .testimonial_square_boxes {
     display: none;
   }
@@ -1022,10 +1030,10 @@ color: #1E0665;
   .how_to_contact_bb {
     margin-top: 14px;
   }
-  .underline:hover:after{
+  .underline:hover:after {
     width: 50%;
   }
-   .bg_service {
+  .bg_service {
     display: none;
   }
   /* .bg_differentiator {
