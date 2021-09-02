@@ -7,7 +7,7 @@ let currSlide=2;
 let prevSlide=2;
 
 testimonial_button1.addEventListener('click',()=>{
-    // console.log(';clciked')
+    console.log(';clciked')
     document.getElementById(`purple_square${prevSlide}`).style.backgroundColor="#634ABB"
     document.getElementById(`purple_square${prevSlide}`).style.transform="scale(1)"
 
@@ -21,7 +21,7 @@ testimonial_button1.addEventListener('click',()=>{
    document.getElementById(`purple_square${currSlide}`).style.transform="scale(1.75)"
 })
 testimonial_button2.addEventListener('click',()=>{
-    // console.log(';clciked')
+    console.log(';clciked')
     document.getElementById(`purple_square${prevSlide}`).style.backgroundColor="#634ABB"
     document.getElementById(`purple_square${currSlide}`).style.transform="scale(1)"
 

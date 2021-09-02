@@ -30,7 +30,12 @@ section.All_Services_Nav .services button.active{
     background-color: #FCA702
 }
 
-
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .feature_content {
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+  } */
 .feature_content{
     position: relative;
     border: 1px solid #8C7DC0;

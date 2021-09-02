@@ -203,7 +203,7 @@ color: #1E0665;
 }
 .bg_filtered {
     position: absolute;
-    bottom: 25px;
+    bottom: 19px;
     z-index: -1;
     width: 17%;
 }
@@ -273,4 +273,9 @@ width: 100%;
 }
 #continuousInnovationSection {
     position: relative;
+}
+
+@media only screen and (max-width: 600px) {  
+
+
 }
