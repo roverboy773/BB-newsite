@@ -127,7 +127,7 @@ ul {
 }
 /* ------------FUTURE SECTION CSS */
 .octopus_image img {
-  width: 100%;
+  width: 635px;
 }
 .future_heading {
   margin-top: 22%;
@@ -213,7 +213,7 @@ ul {
   left: 0px;
   height: 100%;
   width: 100%;
-  /* background-color: var(--cust-mustard-color); */
+ 
   transform: translateY(-50%);
 
   transition: 0.3s;
@@ -520,11 +520,9 @@ ul {
   color: #1e0665;
   font-weight: 700;
 }
-/* .why-us-innerinfo {
-    margin-bottom: 20px;
-} */
+
 .why-us-image img {
-  width: 100%;
+  width: 545px;
   position: relative;
   z-index: -1030;
 }
@@ -845,7 +843,7 @@ ul {
   padding-left: 40px;
 }
 .keyboard_image img {
-  width: 100%;
+  width: 519px;
 }
 @keyframes first {
   0% {
@@ -1069,10 +1067,5 @@ ul {
     bottom: 6px!important;
 
   }
-  /* .bg_differentiator {
-    display: none;
-  }
-  .bg_project2 {
-    display: none;
-  }  */
+  
 }
