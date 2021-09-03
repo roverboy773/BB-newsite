@@ -101,10 +101,12 @@
   box-shadow: none;
   outline: none;
 }
-
+.contact5 textarea {
+  width: 100%!important;
+}
 .message_box textarea {
   border: 1px solid #8c7dc0;
-  width: 100%;
+  width: 95%;
   border-radius: 7px;
   padding: 10px;
   background-color: white;
@@ -137,9 +139,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .email_id {
-        margin-top: 0px!important;
-    }
+   
     body {
         overflow-x: hidden;
     }
@@ -155,8 +155,8 @@
     .phone_number input {
       width: 76%;
     }
-    .message_box textarea {
-      width: 76%;
+    .contact5 textarea {
+      width: 78%!important;
     }
     .email_id input {
       width: 76%;

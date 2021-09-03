@@ -241,6 +241,11 @@ section.the_best_solution .margin{
 /* DELIVERABLES SECTION */
 section.deliverables{
     margin-top: 100px;
+    margin-bottom: 10%;
+
+}
+.deliverables_content {
+margin-bottom: 7%;
 }
 section.deliverables .product{
     position: relative;
@@ -262,6 +267,7 @@ section.deliverables .product h3{
 }
 section.deliverables .margin{
     margin-top: 25px;
+    /* margin-bottom: 5%; */
 }
 
 
@@ -359,6 +365,7 @@ section.deliverables .margin{
     }
     section.deliverables{
         margin-top: 20px;
+        margin-bottom:18%;
     }
   
 }
@@ -376,7 +383,6 @@ section.deliverables .margin{
     .first_section {
         margin-top: 40px;
     }
-    
     
 }
 

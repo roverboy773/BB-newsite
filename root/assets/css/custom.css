@@ -806,7 +806,7 @@ ul {
   margin-bottom: 0px !important;
 }
 .contact2 textarea {
-  /* width: 95% !important; */
+
   height: 60px !important;
 }
 .contact2 {
@@ -899,6 +899,9 @@ ul {
   }
   .development_image {
     margin-bottom: 33%;
+  }
+  .contact2 textarea {
+    width: 90%!important;
   }
   .development_image img {
     right: 3px;
