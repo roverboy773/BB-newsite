@@ -218,6 +218,9 @@ color:#1E0665
     .contact2 textarea {
         width: 90%!important;
     }
+    .back_circle_img {
+        display: none;
+    }
 }
 
 @keyframes first{

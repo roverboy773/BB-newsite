@@ -1065,6 +1065,9 @@ ul {
     bottom: 6px!important;
 
   }
+  .bg_differentiator {
+    display: none;
+  }
   .right_swipe {
     width: 12%!important;
     bottom: 6px!important;

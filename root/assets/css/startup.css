@@ -276,6 +276,40 @@ width: 100%;
 }
 
 @media only screen and (max-width: 600px) {  
-
-
+.model1 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 14px;
+}
+.arrow_forward {
+    display: none;
+}
+.innovative_text p {
+    width: 100%;
+}
+.arrow_taken1 {
+    display: none;
+}
+.arrow_taken2 {
+    display: none;
+}
+.bulb_image {
+    display: none;
+}
+.hand_image {
+    display: none;
+}
+#startup_form {
+    padding: 20px;
+}
+.submit_button2 button {
+    width: 100%;
+}
+.contact3 textarea {
+    width: 90%!important;
+}
+.contact4  input{
+    margin-top: 15px;
+}
 }
