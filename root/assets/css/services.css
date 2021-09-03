@@ -212,6 +212,12 @@ color:#1E0665
         right: 0%;
         width:30%
     }
+    .keyboard_image {
+        display: none;
+    }
+    .contact2 textarea {
+        width: 90%!important;
+    }
 }
 
 @keyframes first{

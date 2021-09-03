@@ -40,7 +40,7 @@
   padding: 10px;
   background-color: white;
   font-size: 20px;
-  height: 46px;
+  height: 50px;
 }
 .name_box input::placeholder {
   color: #d1cbe6;
@@ -57,7 +57,7 @@
   padding: 10px;
   background-color: white;
   font-size: 20px;
-  height: 46px;
+  height: 50px;
 }
 .email_box input::placeholder {
   color: #d1cbe6;
@@ -74,7 +74,7 @@
   padding: 10px;
   background-color: white;
   font-size: 20px;
-  height: 46px;
+  height: 50px;
 }
 .phone_number input::placeholder {
   color: #d1cbe6;
@@ -91,7 +91,7 @@
   padding: 10px;
   background-color: white;
   font-size: 20px;
-  height: 46px;
+  height: 50px;
 }
 .email_id input::placeholder {
   color: #d1cbe6;
@@ -142,5 +142,26 @@
     }
     body {
         overflow-x: hidden;
+    }
+    .contact_us_form {
+      text-align: center;
+    }
+    .name_box input {
+      width: 76%;
+    }
+    .email_box input {
+      width: 76%;
+    }
+    .phone_number input {
+      width: 76%;
+    }
+    .message_box textarea {
+      width: 76%;
+    }
+    .email_id input {
+      width: 76%;
+    }
+    .submit_button button {
+      width: 76%;
     }
 }

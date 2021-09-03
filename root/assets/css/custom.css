@@ -806,7 +806,7 @@ ul {
   margin-bottom: 0px !important;
 }
 .contact2 textarea {
-  width: 95% !important;
+  /* width: 95% !important; */
   height: 60px !important;
 }
 .contact2 {
@@ -902,6 +902,9 @@ ul {
   }
   .development_image img {
     right: 3px;
+  }
+  .keyboard_image {
+    display: none;
   }
   .service-heading {
     margin-bottom: 30%;
@@ -1010,7 +1013,7 @@ ul {
     margin-bottom: 24px;
   }
   .lets_work_wrapper {
-    height: 452px;
+    height: 480px;
   }
   .lets_work_email_part input {
     width: 65%;
