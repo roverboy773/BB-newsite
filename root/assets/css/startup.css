@@ -274,7 +274,10 @@ width: 100%;
 #continuousInnovationSection {
     position: relative;
 }
-
+.button3 button {
+    width: 95%!important;
+    margin-top: 15px;
+}
 @media only screen and (max-width: 600px) {  
 .model1 {
     width: 50%;
