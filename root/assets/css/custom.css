@@ -313,9 +313,6 @@ ul {
 }
 .name_of_technology img {
   width: 100px;
-  position: absolute;
-  left: 30px;
-  top: 20px;
 }
 .name_of_technology {
   background-color: #3d2495;
@@ -323,7 +320,9 @@ ul {
   height: 150px;
   border: none;
   border-radius: 12px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ------------our core technology page css----------- */
@@ -1077,4 +1076,20 @@ ul {
 
   }
   
+}
+
+
+@media only screen and (max-width: 1000px){
+  .name_of_technology img {
+    width: 80%
+  }
+}
+@media only screen and (max-width: 768px){
+  .name_of_technology{
+    width:60%;
+    margin: 0 auto;;
+  }
+  .name_of_technology img {
+    width: 25%
+  }
 }
